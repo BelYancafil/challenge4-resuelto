@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-ES">
+    
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>AluraGeek</title>
+        <link href="./asset/css/normalize.css" rel="stylesheet" />
+        <link href="./asset/css/reset.css" rel="stylesheet" />
+        <link href="./asset/css/cabecera.css" rel="stylesheet" />
+        <link href="./asset/css/banner.css" rel="stylesheet" />
+        <link href="./asset/css/productos.css" rel="stylesheet" />
+        <link href="./asset/css/sobre-nosotros.css" rel="stylesheet" />
+        <link href="./asset/css/footer.css" rel="stylesheet" />
+        <link href="./asset/css/login.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header class="cabecera">            
+            <div class="menu">
+                <img class="logo" src="./asset/img/Logo.svg" alt="">
+                <div class="buscar__menu">
+                    <input class="buscar__texto" type="search"  placeholder="¿Que desea buscar?">
+                    <button class="boton__buscar"><img class="buscar__imagen" src="./asset/img/Vector.svg" alt=""></button>
+                </div>
+            </div>
+        </header>
+        <form class="form__login" data-form-login>
+            <p>Iniciar sesion</p>
+            <div class="datos__login" >
+                <input class="usuario__login" data-email type="email" placeholder="Ingrese su email" required >
+                <input class="usuario__contrasenia" data-pass type="text" placeholder="Ingrese su contraseña" required>
+            </div>
+            <h4>Usuario y contraseña de ejemplo <br>Usuario:"Admin@admin.com" <br> Contraseña:"pass"</h4>
+            <a href="" class="boton__entrar"><button class="boton__banner">Entrar</button></a>
+        </form>
+        </section>
+        <script type="module" src="./controllers/validaciones.js"></script>
+        <script type="module" src="./controllers/validar-login.js"></script>
+
+    </body>
+    <section class="sobre__nosotros">
+        <div class="contenido__sobre">
+            <div class="para__responsividad">
+            <img src="./asset/img/Logo.svg" class="logo__sobre">
+            <ul class="lista__sobre">
+                <li class="link__sobre"><a class="texto__link">Quienes somos</a></li>
+                <li class="link__sobre"><a class="texto__link">Politicas de privacidad</a></li>
+                <li class="link__sobre"><a class="texto__link">Programa de fidelidad</a></li>
+                <li class="link__sobre"><a class="texto__link">Nuestras Tiendas</a></li>
+                <li class="link__sobre"><a class="texto__link">Quiero ser franquicia</a></li>
+                <li class="link__sobre"><a class="texto__link">Quienes somos</a></li>
+                <li class="link__sobre"><a class="texto__link">Anuncie aqui</a></li>
+
+            </ul>
+        </div>
+        <div class="contacto__sobre">
+            <form data-form>
+            <h3 class="titulo__contacto">Hable con nosotros</h3>
+            <div class="formulario__contacto">
+                <input class="nya__contacto" data-nombreapellido type="text" placeholder="Nombre y Apellido">
+                <textarea class="mensaje__contacto" data-mensaje placeholder="Escriba su mensaje aqui"></textarea>
+
+            </div>
+            <button class="enviar__sobre" >Enviar mensaje</button>
+        </form>
+        </div>
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="nom__footer">Desarrollado por M. Belen Yancafil 2022</p>
+       
+    </footer>
+</html>

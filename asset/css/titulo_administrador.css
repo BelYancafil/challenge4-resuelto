@@ -1,0 +1,81 @@
+.titulo__administrador{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+}
+button.boton__agregar{
+   
+    width: 135px;
+    height: 70px;
+    margin-right: 5rem;
+    padding: 10px ;   
+    font-size: 1.3rem;
+    background: #2a7ae4;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-family: 'Raleway' ;
+    font-style: normal;    
+    
+}
+.articulos{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem; 
+   
+}
+.linea__id{
+    margin-left: 0.5rem;
+    font-family: 'Raleway';
+    font-style: normal;    
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.linea__descripcion{
+    margin-left: 0.5rem;
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 0.6rem;
+}
+
+.botones_edicion{
+    
+    width: 135px;
+    height: 70px;
+    margin-right: 5rem;
+    padding: 10px ;   
+    font-size: 1.3rem;
+    background: #2a7ae4;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-family: 'Raleway' ;
+    font-style: normal;    
+
+}
+
+.boton__eliminar,.boton_editar{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    padding: 5px ;   
+    font-size: 18px;
+    background: #2a7ae4;
+    color: #ffffff;
+    font-family: 'Raleway' ;
+    font-style: normal;    
+
+}

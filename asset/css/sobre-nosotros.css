@@ -1,0 +1,244 @@
+.sobre__nosotros{
+    background: #eaf2fd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px;
+    gap: 115px;
+    width: 1440px;
+    height: 368px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.contenido__sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 112px;
+    width: 1136px;
+    height: 240px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.logo__sobre{
+    width: 176px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.lista__sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 24px;
+    width: 176px;
+    height: 234px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    list-style: none;
+    justify-content: space-between;
+   
+}
+.link__sobre{
+    width: 176px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+.contacto__sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 560px;
+    height: 240px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.titulo__contacto{
+    width: 560px;
+    height: 19px;
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.formulario__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 560px;
+    height: 154px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.nya__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+    width: 480px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.mensaje__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+    width: 480px;
+    height: 82px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    
+}
+.enviar__sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 144px;
+    height: 51px;
+    background: #2a7ae4;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-top: 1rem;
+}
+.para__responsividad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items:flex-start;
+    width: 60%;
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .sobre__nosotros{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 32px;
+        gap:115px;
+        flex:none;
+        flex-grow: 0;
+        height: 300px;
+        width: 700px;
+        align-self: stretch;
+        flex-wrap:wrap;
+        column-fill: 7;
+
+    }
+    
+    .contenido__sobre{
+       
+        display: flex;
+        flex-direction:row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        height: 300px;
+        width: 700px;
+        flex-wrap: wrap;
+        column-count: 2;
+        
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .sobre__nosotros{
+       
+        width: 1000px;
+        height: 364px;
+        display: flex;
+        flex-direction: row;         
+
+}   
+    .para__responsividad{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+    .contacto__sobre{
+        display: flex;
+        flex-direction: column;
+        
+        padding: 0px;
+        width: 300px;
+        height: 240px;
+        
+    }
+}
+@media screen and (min-width: 360px) and (max-width:768px){
+    .sobre__nosotros{
+      
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 328px;
+    }
+    .contenido__sobre{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 328px;
+    }
+    .para__responsividad{
+         display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 328px;
+    }
+    .contacto__sobre{
+        width: 328px;
+    }
+    .formulario__contacto, .nya__contacto,.mensaje__contacto{
+        width: 328px;
+    }
+}
+
+

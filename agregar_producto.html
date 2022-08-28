@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-ES">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>AluraGeek</title>
+        <link href="./asset/css/normalize.css" rel="stylesheet"/> 
+        <link href="./asset/css/reset.css" rel="stylesheet" /> 
+        <link href="./asset/css/cabecera.css" rel="stylesheet" />
+        <link href="./asset/css/banner.css" rel="stylesheet" />
+        <link href="./asset/css/productos.css" rel="stylesheet" />
+        <link href="./asset/css/sobre-nosotros.css" rel="stylesheet" />
+        <link href="./asset/css/footer.css" rel="stylesheet" />
+        <link href="./asset/css/agregar_producto.css" rel="stylesheet" />
+    </head>
+    <script type="module" src="./controllers/crear-productos-controller.js"></script>
+    <script type="module" src="./servicios/productos-servicios.js"></script>
+    
+    <body>
+        <header class="cabecera">            
+            <div class="menu">
+                <img class="logo" src="./asset/img/Logo.svg" alt="">
+                <div class="buscar__menu">
+                    <input class="buscar__texto" type="search"  placeholder="¿Que desea buscar?">
+                    <button class="boton__buscar"><img class="buscar__imagen" src="./asset/img/Vector.svg" alt=""></button>
+                </div>
+                <a href="administrador.html" class="a__login"><button type="button" class="login__menu" >Menu administrador</button></a>
+            </div>
+                
+        </header>
+        <section class="agregar__producto">
+            <form class="form-control" data-form>
+            <p>Agregar nuevo producto</p>
+            <input type="url" class="campo__agregar" placeholder="URL de la imagen" required data-url>
+            <input type="text" class="campo__agregar" placeholder="Nombre del producto" required data-name maxlength="20">
+            <input type="number" class="campo__agregar" placeholder="Precio del producto" required data-price >
+            <input type="text" class="campo__agregar" placeholder="Descripcion" required data-descripcion maxlength="150">
+           <button class="boton__banner">Agregar producto</button>
+        </form>
+            
+        </section>
+    </body>
+    </section>
+    <footer class="footer">
+        <p class="nom__footer">Desarrollado por M. Belen Yancafil 2022</p>
+       
+    </footer>
+</html>

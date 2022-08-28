@@ -1,0 +1,43 @@
+.agregar__producto{
+   
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   align-content: center;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 38px;
+   color: #464646;
+   margin-top: 4rem;
+
+}
+
+.campo__agregar{
+    width: 520px;
+    height: 20px;
+    font-family:'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+.boton__banner{
+    width: 520px;
+    height: 51px;
+    margin-top: 2rem;
+}

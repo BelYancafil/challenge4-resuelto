@@ -1,0 +1,127 @@
+.articulos{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+}
+.seccion__nombre{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-family: 'ralewey';
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 0.6rem;
+}
+
+.ver__todo{
+    width: 95px;
+    height: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 58px;
+    color: #2a7ae4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.caja__imagen{
+    margin-left: 0.5rem;
+    height: 250px;
+    width: 250px;
+}
+
+.linea__titulo{
+    width: 176px;
+    height: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+    color: #464646;      
+    margin-left: 0.5rem;  
+    padding-top: 2rem; 
+
+}
+.linea__descripcion{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Raleway';
+    font-style:normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 0.5rem;
+}
+.linea__precio{
+    font-family: 'Raleway';
+    font-style:normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;  
+    margin-left: 0.5rem;
+
+}
+.ver__producto{
+    width: 100px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2a7ae4;
+    margin-left: 0.7rem;
+    padding-bottom: 1rem;    
+}
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .nombre__seccion :nth-child(5){
+        display: none;
+        
+    }
+    .nombre__seccion :nth-child(6){
+        display: none;
+        
+    }
+}
+@media screen and (min-width: 360px) and (max-width:768px){
+    .nombre__seccion{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        
+    }
+    .nombre__seccion :nth-child(5){
+        display: none;
+        
+    }
+    .nombre__seccion :nth-child(6){
+        display: none;
+        
+    }
+}
+@media screen and (min-width: 0px) and (max-width:360px){
+    .nombre__seccion{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        
+    }
+    .nombre__seccion :nth-child(5){
+        display: none;
+        
+    }
+    .nombre__seccion :nth-child(6){
+        display: none;
+        
+    }
+}

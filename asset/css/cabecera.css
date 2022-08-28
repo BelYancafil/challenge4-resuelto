@@ -1,0 +1,142 @@
+.menu{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 32px 0px 0px 0px ;
+    gap: 200px;
+    width: 1100px;
+    height: 115px;
+    margin-left: 9rem;
+    
+}
+
+.logo{
+   
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 176px;
+    height: 50px;
+    
+}
+.buscar__menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}   
+.buscar__texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px;
+    width: 329px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+} 
+.boton__buscar{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: none;
+    border: none;
+    
+} 
+.login__menu{
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2a7ae4;
+    
+} 
+.a__login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.cabecera{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1440px;
+    height: 120px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px){
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 5px;
+        width: 350px;
+        height: 110px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+}
+@media screen and (min-width: 360px) and (max-width:768px){
+    .menu {
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+            gap: 5px;
+            width: 350px;
+            height: 110px;
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+    }
+    
+
+    
+}
+@media screen and (min-width: 0px) and (max-width:360px){
+    .menu {
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+            gap: 5px;
+            width: 100px;
+            height: 110px;
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+    }
+    
+    
+}
+
+
